@@ -20,15 +20,15 @@
   </p>
 </div>
 
-## Our Mission
+## Welcome to AtlasServer
 
-We're building tools to simplify the development lifecycle, making deployment and development more accessible, efficient, and enjoyable. Our focus is on creating lightweight, powerful solutions that respect developers' workflow and eliminate unnecessary complexity.
+We're building a suite of tools to radically simplify the deployment and development process. Our mission is to help developers focus on what matters most—creating great software—without the complexities of deployment infrastructure.
 
 ## 🚀 Our Projects
 
 ### [AtlasServer-Core](https://github.com/AtlasServer-Core/AtlasServer-Core)
 
-**A lightweight and efficient deployment platform for Python web applications**
+**A local deployment platform for developers who need to quickly share demos without complex cloud setups**
 
 <p>
   <a href="https://pypi.org/project/atlasserver/"><img src="https://img.shields.io/pypi/v/atlasserver.svg" alt="PyPI Version"></a>
@@ -36,7 +36,17 @@ We're building tools to simplify the development lifecycle, making deployment an
   <a href="https://github.com/AtlasServer-Core/AtlasServer-Core/"><img src="https://img.shields.io/github/stars/AtlasServer-Core/AtlasServer-Core.svg" alt="GitHub Stars"></a>
 </p>
 
-AtlasServer-Core radically simplifies the deployment process for Flask, FastAPI, and Django applications. With both a web interface and CLI, it eliminates dependency on costly cloud services for testing and development.
+AtlasServer-Core provides a centralized dashboard to manage, launch, and expose your applications on your local network or to the internet via secure tunnels.
+
+**Key Features:**
+- Fast Local Deployment: Launch applications with a single click
+- Framework Support: Deploy Flask, FastAPI, and Django applications
+- LAN & Internet Exposure: Share applications locally or via Ngrok
+- Process Management: Start, stop, restart, and monitor applications
+- Real-time Logs: View application logs directly in the dashboard
+- Multi-user Support: Manage access with different roles
+- Command Line Interface: Manage everything through a powerful CLI
+- Python virtual environment detection
 
 ```bash
 pip install atlasserver
@@ -57,7 +67,14 @@ pip install atlasserver
   <a href="https://github.com/AtlasServer-Core/AtlasAI-CLI/"><img src="https://img.shields.io/github/stars/AtlasServer-Core/AtlasAI-CLI.svg" alt="GitHub Stars"></a>
 </p>
 
-AtlasAI-CLI automatically analyzes projects, recommends optimal deployment configurations, and answers general queries about your system and development tasks. Works both with AtlasServer and as a standalone tool.
+AtlasAI-CLI is an intelligent assistant that enhances the AtlasServer experience with AI-powered project analysis and general development assistance.
+
+**Key Features:**
+- Intelligent project analysis for optimal deployment configuration
+- General AI queries about your system, projects, or development tasks
+- Interactive file and directory exploration
+- Support for both local and cloud AI models
+- Multilingual support with detailed Markdown responses
 
 ```bash
 pip install atlasai-cli
@@ -68,6 +85,14 @@ pip install atlasai-cli
 
 ---
 
+## 👥 Who Are Our Tools For?
+
+- **Freelancers**: Quickly demonstrate work to clients without complex deployments
+- **Agencies**: Streamline the client approval process with easy-to-share demos
+- **Development Teams**: Simplify internal testing and collaboration
+- **Educators**: Share working examples with students or colleagues
+- **Startup Founders**: Test MVPs with stakeholders before investing in cloud infrastructure
+
 ## 🌐 How Our Tools Work Together
 
 Our tools create a seamless ecosystem:
@@ -77,6 +102,23 @@ Our tools create a seamless ecosystem:
 3. **Deploy** with AtlasServer-Core using the recommended configuration
 4. **Manage** your applications through web UI or CLI
 5. **Query** information and get assistance throughout the process with AtlasAI-CLI
+
+## 🚀 Getting Started
+
+Getting started with our tools is simple:
+
+```bash
+# Install AtlasServer-Core
+pip install atlasserver
+
+# Optionally install AtlasAI-CLI
+pip install atlasai-cli
+
+# Start the server
+atlasserver start
+
+# Access your dashboard at http://localhost:5000
+```
 
 ## 🤝 Join Our Community
 
